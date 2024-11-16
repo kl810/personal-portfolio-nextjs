@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+:root {
+    --main-yellow: #f1c40f;
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    /* height: 100vh;
+    width: 100vw; */
+    font-family: "Poppins", Helvetica, sans-serif;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+    }
+  }
