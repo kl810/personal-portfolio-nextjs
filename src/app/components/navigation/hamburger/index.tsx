@@ -4,28 +4,48 @@ interface HamburgerProps {
     isOpen: boolean
 }
 
+// function openNav() {
+//     const overlay = document.querySelector<HTMLElement>('.menu-overlay');
+//     overlay!.style.width = "100%"; /* "!" non-null assertion */
+// }
+
+// function closeNav() {
+//     const overlay = document.querySelector<HTMLElement>('.menu-overlay');
+//     overlay!.style.width = "0%";
+// }
+
 export default function Hamburger({isOpen}: HamburgerProps) {
+
+    function toggleNav() {
+        const overlay = document.querySelector<HTMLElement>('.nav-overlay');
+        // return isOpen ? overlay!.style.width='100%': overlay!.style.width='0%'
+
+        overlay!.style.width = isOpen ? '0%': '100%'
+        
+    }
+
     return (
         <>
-            <div className="hamburger">
+            <div className="hamburger" onClick={toggleNav}>
                 <div className="bar bar1"></div>
                 <div className="bar bar2"></div>
                 <div className="bar bar3"></div>
             </div>
-            <div className="menu">
-                <ul > 
-                    <li className="menu-links">
-                        <Link href="/">
+            <div className="nav-overlay">
+                {/* <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a> */}
+                <ul className="overlay-content"> 
+                    <li className="nav-links">
+                        <Link href="/" onClick={toggleNav}>
                             <p>Home</p>
                         </Link>
                     </li>
-                    <li className="menu-links">
-                        <Link href="/about">
+                    <li className="nav-links">
+                        <Link href="/about" onClick={toggleNav}>
                             <p>About</p>
                         </Link>
                     </li>
-                    <li className="menu-links">
-                        <Link href="/projects">
+                    <li className="nav-links">
+                        <Link href="/projects" onClick={toggleNav}>
                             <p>Projects</p>
                         </Link>
                     </li>
@@ -47,6 +67,7 @@ export default function Hamburger({isOpen}: HamburgerProps) {
                     transition: 0.4s;
                 }
 
+
                 .bar1 {
                     transform: ${isOpen ? 'rotate(45deg) translate(0, 15px)': 'rotate(0)'}
                 }
@@ -59,76 +80,52 @@ export default function Hamburger({isOpen}: HamburgerProps) {
                     transform: ${isOpen ? 'rotate(-45deg) translate(0, -15px)': 'rotate(0)'}
                 }
                 
-                .menu {
-                    display: ${isOpen ? 'block' : 'none'}
-                    overflow: hidden;
-                    background-color: #333;
+                .nav-overlay {
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 1;
+                    top: 5rem;
+                    left: 0;
+                    background-color: rgb(0,0,0);
+                    background-color: rgba(0,0,0, 0.9);
+                    overflow-x: hidden;
+                    transition: 0.5s;
+                }
+
+                .overlay-content {
                     position: relative;
+                    top: 25%;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 30px;
                 }
 
-                .menu-links {
-                    padding: 14px 16px;
+                .nav-links {
+                    padding: 8px;
                     text-decoration: none;
-                    font-size: 17px;
+                    font-size: 36px;
+                    color: #818181;
                     display: block;
+                    transition: 0.3s;
                 }
 
-                .menu-links:hover {
-                    background-color: #ddd;
-                    color: black;
+                .nav-links:hover, .nav-links:focus {
+                    color: #f1f1f1;
+                }
+                
+                .closebtn {
+                    color: #818181
                 }
 
-                .active {
-                    background-color: #04AA6D;
-                    color: white;
+                .nav-overlay .closebtn {
+                    position: absolute;
+                    top: 20px;
+                    right: 45px;
+                    font-size: 60px;
                 }
             `}</style>
         </>
     )
 }
 
-
-// import Link from "next/link";
-
-// interface SidebarProps {
-//     isOpen: boolean;
-//     toggle: () => void;
-// }
-
-// const Sidebar = ({isOpen, toggle,}: SidebarProps): JSX.Element => {
-//   return (
-//     <>
-//       <div
-//         className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-10"
-//         style={{
-//           opacity: `${isOpen ? "1" : "0"}`,
-//           top: ` ${isOpen ? "0" : "-100%"}`,
-//         }}
-//       >
-//         <button className="absolute right-0 p-5" onClick={toggle}>
-//         {/* Close icon */}
-//           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"> 
-//             <path
-//               fill="currentColor"
-//               d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
-//             />
-//           </svg>
-//         </button>
-
-        // <ul className="sidebar-nav text-center leading-relaxed text-xl">
-        //   <li>
-        //     <Link href="/" onClick={toggle}><p>Home</p></Link>
-        //   </li>
-        //   <li>
-        //     <Link href="/about" onClick={toggle}><p>About</p></Link>
-        //   </li>
-        //   <li>
-        //     <Link href="/projects" onClick={toggle}><p>Projects</p></Link>
-        //   </li>
-        // </ul>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Sidebar;
