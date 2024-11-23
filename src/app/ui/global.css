@@ -6,11 +6,11 @@
     box-sizing: inherit;
 }
 
-:root {
+/* :root {
     --main-yellow: #f1c40f;
     --background: #ffffff;
     --foreground: #171717;
-}
+} */
 
 html {
     scroll-behavior: smooth;
@@ -24,9 +24,9 @@ body, html {
 
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
       --background: #0a0a0a;
       --foreground: #ededed;
     }
-  }
+  } */

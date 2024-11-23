@@ -6,13 +6,14 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'selector',
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+        'black-rgba' : 'rgba(31, 41, 55, 0.9)',
+        'gray-rgba' : 'rgba(243, 244, 246, 0.9)',
+      }
+    }
     },
-  },
   plugins: [],
 } satisfies Config;

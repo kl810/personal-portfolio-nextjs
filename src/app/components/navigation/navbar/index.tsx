@@ -3,23 +3,24 @@
 import React from "react";
 import Link from "next/link";
 import Hamburger from "../hamburger";
+import ToggleSwitch from "../toggle-switch/toggle-switch";
 import {useState} from "react";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-
+   
     const toggleHamburger = () => {
         setIsOpen(!isOpen); 
     };
     
     return (
       <>
-        <div className="w-full h-20 bg-emerald-800 sticky top-0">
-          <div className="container mx-auto px-4 h-full">
-            <div className="navigation flex justify-between items-center h-full">
-                <ul className="hidden md:flex gap-x-6 text-white float-right"> {/*float-right not working */}
+        <div className="w-auto h-20 bg-gray-100 dark:bg-gray-800 sticky top-0">
+          <div className="container px-8 float-right">
+            <div className="navigation flex justify-between float-right">
+                <ul className="hidden md:flex gap-x-6 py-6 text-lg text-gray-900 dark:text-gray-100 font-medium">
                     <li>
-                        <Link href="/">
+                        <Link href="/" >
                             <p>Home</p>
                         </Link>
                     </li>
@@ -34,6 +35,9 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
+                <div className="dark-mode-toggle inline-block py-4 px-2 md:px-4">
+                    <ToggleSwitch />
+                </div>
                 <div className="hamburger md:hidden" onClick={toggleHamburger}>
                     <Hamburger isOpen={isOpen}/>
                 </div>

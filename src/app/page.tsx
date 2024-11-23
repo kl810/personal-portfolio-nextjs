@@ -1,17 +1,15 @@
 'use client'
 
-
 export default function Home() {
   return (
     <div>
-      <header>
-
-      </header>
       <main>
-        <div className="flex flex-col min-h-screen justify-center items-start px-40 dark:text-white">
-          <h1 className="text-3xl font-bold dark:text-white lg:text-5xl">Hello, I am Kye-Lee</h1>
-          <p>Aspiring Front-End Developer</p>
-        </div>
+        <div className="flex flex-col min-h-screen w-full justify-center items-start">
+          <div className="ml-20">
+            <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 md:text-5xl py-4">Hello, I am Kye-Lee</h1>
+            <p className="text-lg text-gray-500 dark:text-gray-400 md:text-xl">Aspiring Front-End Developer</p>
+          </div>
+        </div> 
       </main>
     </div>
 
