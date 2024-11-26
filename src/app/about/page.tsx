@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function About() {
     return (
         <>
-            <div className="px-28 pt-16">
-                <h1 className="text-6xl font-bold">About</h1>
+            <div className="px-16 md:px-28 pt-16">
+                <h1 className="text-5xl md:text-6xl font-bold">About</h1>
                 <hr className="h-1 my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             </div>
             <div className="flex justify-center w-full">
@@ -30,6 +30,20 @@ export default function About() {
                             tech world. Explore my projects, see what I’ve been building!
                         </p>
                     </div>
+                </div>
+            </div>
+            <div className="px-16 md:px-28">
+                <h3 className="text-2xl font-bold">Skills</h3>
+                <div className="py-5 text-2xl md:text-4xl lg:text-6xl flex space-x-10 justify-center">
+                    <i className="devicon-react-original-wordmark colored"></i>
+                    <i className="devicon-nextjs-original-wordmark light:colored"></i>
+                    <i className="devicon-javascript-plain colored"></i>
+                    <i className="devicon-typescript-plain colored"></i>
+                    <i className="devicon-html5-plain-wordmark colored"></i>
+                    <i className="devicon-css3-plain-wordmark colored"></i>
+                    <i className="devicon-tailwindcss-plain-wordmark colored text-8xl flex items-start"></i>
+                    <i className="devicon-bootstrap-plain-wordmark colored"></i>
+    
                 </div>
             </div>
         </>
