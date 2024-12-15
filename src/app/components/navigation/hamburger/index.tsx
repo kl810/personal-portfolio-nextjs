@@ -31,7 +31,7 @@ export default function Hamburger({isOpen}: HamburgerProps) {
                 <div className="bar bar2 w-9 h-1 my-1.5 rounded-lg bg-gray-900 dark:bg-gray-100"></div>
                 <div className="bar bar3 w-9 h-1 my-1.5 rounded-lg bg-gray-900 dark:bg-gray-100"></div>
             </div>
-            <div className="nav-overlay h-screen w-0 fixed z-1 top-20 left-0 overflow-x-hidden bg-gray-rgba dark:bg-black-rgba">
+            <div className="nav-overlay h-screen w-0 fixed z-50 top-20 left-0 overflow-x-hidden bg-gray-rgba dark:bg-black-rgba">
                 <ul className="overlay-content relative w-full text-center mt-8 top-1/4"> 
                     <li className="nav-links p-4 block text-4xl text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100">
                         <Link href="/" onClick={toggleNav}>

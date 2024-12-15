@@ -34,16 +34,15 @@ export default function About() {
             </div>
             <div className="px-16 md:px-28">
                 <h3 className="text-2xl font-bold">Skills</h3>
-                <div className="py-5 text-2xl md:text-4xl lg:text-6xl flex space-x-10 justify-center">
+                <div className="py-5 text-xl md:text-2xl lg:text-4xl flex space-x-10 justify-center">
                     <i className="devicon-react-original-wordmark colored"></i>
                     <i className="devicon-nextjs-original-wordmark light:colored"></i>
                     <i className="devicon-javascript-plain colored"></i>
                     <i className="devicon-typescript-plain colored"></i>
                     <i className="devicon-html5-plain-wordmark colored"></i>
                     <i className="devicon-css3-plain-wordmark colored"></i>
-                    <i className="devicon-tailwindcss-plain-wordmark colored text-8xl flex items-start"></i>
-                    <i className="devicon-bootstrap-plain-wordmark colored"></i>
-    
+                    <i className="devicon-bootstrap-plain-wordmark colored py-1"></i>
+                    <i className="devicon-tailwindcss-plain-wordmark colored text-6xl flex items-start"></i>    
                 </div>
             </div>
         </>
