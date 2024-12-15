@@ -10,9 +10,9 @@ export default function Home() {
     const typed = new Typed(greeting.current, {
       strings: [
         'Hello!', 
-        'Hola!', 
+        '¡Hola!', 
         '你好!', 
-        'やあ!', 
+        'こんにちは!', 
         '안녕!', 
         'Bonjour!', 
         'Hallo!', 
@@ -42,9 +42,9 @@ export default function Home() {
     <>
       <main>
         <div className="flex flex-col h-screen w-screen box-border">
-          <div className="ml-20 h-3/4 flex-col content-center ">
+          <div className="ml-20 h-3/4 flex-col content-center">
             <p className="text-4xl block font-bold text-gray-900 dark:text-gray-100 md:text-5xl py-4">
-              <span className="w-60 block italic text-teal-700 text-center h-12 sm:h-10 sm:inline-block">
+              <span className="w-72 block italic text-teal-700 text-center h-12 sm:h-10 sm:inline-block">
                 <span ref={greeting}></span>
               </span>
               <span className="pl-2">I'm Kye-Lee</span>
