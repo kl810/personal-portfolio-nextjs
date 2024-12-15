@@ -20,7 +20,7 @@ export default function Projects() {
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-md"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 text-center group-hover:opacity-100">
-                            <a href="https://main.d3nfd799s6mstg.amplifyapp.com/" className="overlay-text text-gray-200 bg-emerald-500 hover:text-gray-100 py-4 px-8 rounded-md flex justify-center">Recipe App</a>
+                            <a href="https://main.d3nfd799s6mstg.amplifyapp.com/" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Recipe App</a>
                         </div>
                     </div>
                     <div className="project-card-container relative width-1/2 lg:size-5/6 group flex justify-center">
@@ -32,7 +32,7 @@ export default function Projects() {
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-md"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 text-center group-hover:opacity-100">
-                            <a href="https://main.du85u0nlbn4bw.amplifyapp.com/" className="overlay-text text-gray-200 bg-emerald-500 hover:text-gray-100 py-4 px-8 rounded-md flex justify-center">Grocery List App</a>
+                            <a href="https://main.du85u0nlbn4bw.amplifyapp.com/" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Grocery List App</a>
                         </div>
                     </div>
                 </div>
