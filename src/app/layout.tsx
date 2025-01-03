@@ -18,11 +18,13 @@ export default function RootLayout({
     <html lang="en" className="light bg-white dark:bg-gray-900 dark:text-gray-100">
       <head>
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        {/* <script src="https://kit.fontawesome.com/e1d9ec8da2.js" crossOrigin="anonymous"></script>  */}
+        {/* <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" /> */}
       </head>
       <body className={`${poppins.className} antialiased`}>
         <Navbar />
         {children}
+        {/* <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script> */}
+
       </body>
     </html>
   );
