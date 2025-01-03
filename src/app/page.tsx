@@ -2,6 +2,8 @@
 
 import React from 'react';
 import Typed from 'typed.js';
+import { FaLinkedin, FaGithub, FaPhone } from 'react-icons/fa6';
+import { BsEnvelopeAt } from "react-icons/bs";
 
 export default function Home() {
   const greeting = React.useRef(null);
@@ -52,10 +54,10 @@ export default function Home() {
             <p className="block pb-16 text-lg text-gray-500 dark:text-gray-400 md:text-xl">Aspiring Full Stack Developer</p>
           </div>
           <div className="px-10 py-5 text-2xl md:text-3xl h-20 w-full flex space-x-16 justify-center items-center">
-            <a href="https://www.linkedin.com/in/kye-lee-low-8a6643159"><i className="devicon-linkedin-plain colored"></i></a>
-            <a href="https://github.com/kl810"><i className="devicon-github-original light:colored"></i></a>
-            <a href=""><i className="fa-regular fa-envelope"></i></a>
-            <i className="fa-solid fa-phone"></i>
+            <a href="https://www.linkedin.com/in/kye-lee-low-8a6643159"><FaLinkedin /></a>
+            <a href="https://github.com/kl810"><FaGithub /></a>
+            <a href=""><BsEnvelopeAt /></a>
+            <FaPhone />
           </div> 
         </div>
 
