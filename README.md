@@ -1,9 +1,9 @@
 # Kye-Lee Low Personal Portfolio
 A Personal Portfolio featuring a Home Page, About Me and Projects Page.
 
-![Screenshot of Kye-Lee Personal Portfolio]()
+![Screenshot of Kye-Lee Personal Portfolio](public/portfolio.png)
 
-Click this link for a live demo: [Kye-Lee-Personal-Portfolio]()
+Click this link for a live demo: [Kye-Lee-Personal-Portfolio](https://www.kyelee.dev)
 
 ## Overview
 **Tech used:** Next.js, Typescript.js, React.js, Typed.js(npm), Javascript, HTML, CSS, Tailwind
