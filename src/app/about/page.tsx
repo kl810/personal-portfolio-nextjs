@@ -21,16 +21,16 @@ export default function About() {
                     <div className="flex justify-center items-center col-span-1 lg:col-span-2">
                         <div>
                             <div className="whitespace-normal text-gray-900 dark:text-gray-100 text-xl pb-5">
-                                <p>Hi, I’m <i>Kye-Lee </i>!</p><br/>
+                                <p>Hi, I&apos;m <i>Kye-Lee </i>!</p><br/>
 
-                                <p>I'm a <b> barrier breaker, lifelong learner, </b> 
+                                <p>I&apos;m a <b> barrier breaker, lifelong learner, </b> 
                                 and an <b>aspiring full-stack developer.</b></p><br/>
 
-                                <p>Having spent years in education, I’ve learned how to help people grow, 
+                                <p>Having spent years in education, I&apos;ve learned how to help people grow, 
                                 foster positive environments and approach problems with a <b>solution-oriented mindset</b>. 
-                                Now, I’m channeling that experience into tech — an industry that excites me with 
+                                Now, I&apos;m channeling that experience into tech — an industry that excites me with 
                                 its creativity and constant innovation. 
-                                I’m driven to build <b>user-focused tech solutions</b> that matter and to <b>collaborate </b>
+                                I&apos;m driven to build <b>user-focused tech solutions</b> that matter and to <b>collaborate </b>
                                 with others to build something meaningful on a larger scale.</p><br />
                                 
                                 <p>With a passion for creativity, adaptability and making things work, 

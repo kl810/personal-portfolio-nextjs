@@ -69,7 +69,7 @@ export default function Home() {
               <span className="w-72 block italic text-teal-700 text-center h-12 sm:h-10 sm:inline-block">
                 <span ref={greeting}></span>
               </span>
-              <span className="pl-2">I'm Kye-Lee</span>
+              <span className="pl-2">I&apos;m Kye-Lee</span>
             </p>
             <p className="block pb-16 text-lg text-gray-500 dark:text-gray-400 md:text-xl">Aspiring Full Stack Developer</p>
           </div>
