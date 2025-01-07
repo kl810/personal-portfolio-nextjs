@@ -52,7 +52,7 @@ export default function About() {
                                 <i className="devicon-html5-plain-wordmark colored"></i>
                                 <i className="devicon-css3-plain-wordmark colored"></i>
                                 <i className="devicon-bootstrap-plain-wordmark colored py-1"></i>
-                                <i className="devicon-tailwindcss-plain-wordmark colored text-6xl"></i>    
+                                {/* <i className="devicon-tailwindcss-plain-wordmark colored text-6xl"></i>     */}
                             </div>
                         </div>
                     </div>
