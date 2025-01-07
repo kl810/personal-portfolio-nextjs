@@ -20,7 +20,7 @@ export default function Projects() {
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-2xl"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 text-center group-hover:opacity-100">
-                            <a href="https://main.d3nfd799s6mstg.amplifyapp.com/" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Recipe App</a>
+                            <a href="https://food-waste-warrior.kyelee.dev" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Food Waste Warrior</a>
                         </div>
                     </div>
                     
@@ -33,7 +33,7 @@ export default function Projects() {
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-2xl"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 text-center group-hover:opacity-100">
-                            <a href="https://main.du85u0nlbn4bw.amplifyapp.com/" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Grocery List App</a>
+                            <a href="https://grocery-list.kyelee.dev" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Grocery List App</a>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ export default function Projects() {
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-2xl"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 text-center group-hover:opacity-100">
-                            <a href="https://main.d2c22tdmmbzffb.amplifyapp.com" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Weather App</a>
+                            <a href="https://weather.kyelee.dev" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Weather App</a>
                         </div>
                     </div>
                 </div>

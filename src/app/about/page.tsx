@@ -22,15 +22,25 @@ export default function About() {
                         <div>
                             <div className="whitespace-normal text-gray-900 dark:text-gray-100 text-xl pb-5">
                                 <p>Hi, I’m <i>Kye-Lee </i>!</p><br/>
-                                <p>I'm a <b> problem-solver, lifelong learner, 
-                                and an aspiring full-stack developer</b>.</p><br/>
-                                <p>After years of creating environments where ideas thrive 
-                                and people succeed in education, I’m now channeling that energy into 
-                                <b> building intuitive, user-focused tech solutions</b>. With a passion 
-                                for creativity, adaptability, and making things work, 
-                                I’m here to bring fresh ideas and a unique perspective to the 
-                                tech world. Explore my projects, see what I’ve been building!</p><br/>
-                                <a href="" className="focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-green-800">
+
+                                <p>I'm a <b> barrier breaker, lifelong learner, </b> 
+                                and an <b>aspiring full-stack developer.</b></p><br/>
+
+                                <p>Having spent years in education, I’ve learned how to help people grow, 
+                                foster positive environments and approach problems with a <b>solution-oriented mindset</b>. 
+                                Now, I’m channeling that experience into tech — an industry that excites me with 
+                                its creativity and constant innovation. 
+                                I’m driven to build <b>user-focused tech solutions</b> that matter and to <b>collaborate </b>
+                                with others to build something meaningful on a larger scale.</p><br />
+                                
+                                <p>With a passion for creativity, adaptability and making things work, 
+                                I am here to offer fresh ideas and a unique perspective to the 
+                                tech world. </p><br />
+                                
+                                <p>Explore my projects and see what I have been building!</p><br/>
+                                <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/gGqIEzrRKXZ89EgWQlDcLfMQgBdwr8Zc-B8VwtqWreo.pdf" 
+                                    target="_blank" 
+                                    className="focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
                                     View my CV
                                 </a>
                             </div>
