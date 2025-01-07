@@ -21,10 +21,10 @@ export default function About() {
                     <div className="flex justify-center items-center col-span-1 lg:col-span-2">
                         <div>
                             <div className="whitespace-normal text-gray-900 dark:text-gray-100 text-xl px-10 pb-5">
-                                <p>Hi, I&apos;m <i>Kye-Lee </i>!</p><br/>
+                                <p>Hi, I&apos;m Kye-Lee!</p><br/>
 
-                                <p>I&apos;m a <b> barrier breaker, lifelong learner, </b> 
-                                and an <b>aspiring full-stack developer.</b></p><br/>
+                                <p>I&apos;m a <b>teacher</b>, <b>lifelong learner</b>,  
+                                and an <b>aspiring full-stack developer</b>.</p><br/>
 
                                 <p>Having spent years in education, I&apos;ve learned how to help people grow, 
                                 foster positive environments and approach problems with a <b>solution-oriented mindset</b>. 
@@ -37,7 +37,7 @@ export default function About() {
                                 I am here to offer fresh ideas and a unique perspective to the 
                                 tech world. </p><br />
                                 
-                                <p>Explore my projects and see what I have been building!</p><br/>
+                                <p>Explore my projects to see what I have been building!</p><br/>
                                 <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/gGqIEzrRKXZ89EgWQlDcLfMQgBdwr8Zc-B8VwtqWreo.pdf" 
                                     target="_blank" 
                                     className="focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
