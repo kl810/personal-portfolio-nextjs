@@ -7,7 +7,7 @@ export default function About() {
                 <h1 className="text-5xl md:text-6xl font-bold">About</h1>
                 <hr className="h-1 my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             </div>
-            <div className="flex justify-center w-full">
+            <div className="flex justify-center">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 m-10 lg:m-28 max-w-screen-2xl">
                     <div className="flex justify-center">
                         <Image 
@@ -20,7 +20,7 @@ export default function About() {
                     </div>
                     <div className="flex justify-center items-center col-span-1 lg:col-span-2">
                         <div>
-                            <div className="whitespace-normal text-gray-900 dark:text-gray-100 text-xl pb-5">
+                            <div className="whitespace-normal text-gray-900 dark:text-gray-100 text-xl px-10 pb-5">
                                 <p>Hi, I&apos;m <i>Kye-Lee </i>!</p><br/>
 
                                 <p>I&apos;m a <b> barrier breaker, lifelong learner, </b> 
@@ -44,7 +44,7 @@ export default function About() {
                                     View my CV
                                 </a>
                             </div>
-                            <div className="py-12 text-2xl md:text-3xl lg:text-4xl flex space-x-10 justify-center">
+                            <div className="py-12 text-xl md:text-3xl lg:text-4xl flex space-x-10 justify-center">
                                 <i className="devicon-react-original-wordmark colored"></i>
                                 <i className="devicon-nextjs-original-wordmark light:colored"></i>
                                 <i className="devicon-javascript-plain colored"></i>

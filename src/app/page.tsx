@@ -76,8 +76,6 @@ export default function Home() {
           <div className="px-10 py-5 text-2xl md:text-3xl h-20 w-full flex space-x-16 justify-center items-center">
             <a href="https://www.linkedin.com/in/kye-lee-low-8a6643159"><FaLinkedin /></a>
             <a href="https://github.com/kl810"><FaGithub /></a>
-            {/* <a href="mailto:kyelee.low@gmail.com"><BsEnvelopeAt /></a>
-            <a href="tel:+447402709246"><FaPhone /></a> */}
 
             <div className="email-dropdown flex">
               <button 
@@ -89,7 +87,7 @@ export default function Home() {
               </button>
 
               {isEmailOpen && 
-                (<div className="absolute mt-10 w-56 
+                (<div className="absolute mt-10 w-56 right-28 md:right-auto
                       rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5
                       focus:outline-none dark:bg-gray-700">
                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
@@ -111,7 +109,7 @@ export default function Home() {
               </button>
 
               {isPhoneOpen && 
-                (<div className="absolute mt-10 w-56 
+                (<div className="absolute mt-10 w-56 right-6 md:right-auto
                       rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5
                       focus:outline-none dark:bg-gray-700">
                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
