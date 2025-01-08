@@ -13,12 +13,12 @@ export default function Projects() {
                 <div className="grid grid-cols-1 justify-items-center items-center mb-20 lg:grid-cols-2 lg:gap-5">
                     <div className="project-card-container relative w-3/4 lg:size-5/6 group flex justify-center">
                         <Image 
-                            src="/recipe-app-home.png"
+                            src="/recipe-app-home.jpg"
                             width={600}
                             height={600}
                             alt="Recipe App Homepage"
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-2xl"
-                            loading="lazy"
+                            loading="eager"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 w-max text-center group-hover:opacity-100">
                             <a href="https://food-waste-warrior.kyelee.dev" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Food Waste Warrior</a>
