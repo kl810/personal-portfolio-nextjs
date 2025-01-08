@@ -18,6 +18,7 @@ export default function Projects() {
                             height={600}
                             alt="Recipe App Homepage"
                             className="project-img m-2 h-auto w-100 block opacity-100 group-hover:opacity-30 rounded-2xl"
+                            loading="lazy"
                         />
                         <div className="project-overlay opacity-0 absolute top-1/2 left-1/2 w-max text-center group-hover:opacity-100">
                             <a href="https://food-waste-warrior.kyelee.dev" className="overlay-text text-gray-200 bg-blue-500 dark:bg-indigo-500 hover:text-gray-100 py-4 px-8 rounded-full flex justify-center">Food Waste Warrior</a>
