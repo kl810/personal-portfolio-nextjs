@@ -38,7 +38,7 @@ export default function About() {
                                 tech world. </p><br />
                                 
                                 <p>Explore my projects to see what I have been building!</p><br/>
-                                <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/cdCWFjXfH8S3I22-UfuPEmq0bQjJy9X68Q65G3cAdKM.pdf" 
+                                <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/BOupz2UbespD6bNBI-cMK4s6-R5DI6iq83lFBw8Eq5o.pdf" 
                                     target="_blank" 
                                     className="focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
                                     View my CV
