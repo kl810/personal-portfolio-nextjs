@@ -47,11 +47,14 @@ export default function About() {
                             <div className="py-12 text-xl md:text-3xl lg:text-4xl flex space-x-10 justify-center">
                                 <i className="devicon-react-original-wordmark colored"></i>
                                 <i className="devicon-nextjs-original-wordmark light:colored"></i>
+                                <i className="devicon-nodejs-plain-wordmark"></i>
                                 <i className="devicon-javascript-plain colored"></i>
                                 <i className="devicon-typescript-plain colored"></i>
                                 <i className="devicon-html5-plain-wordmark colored"></i>
                                 <i className="devicon-css3-plain-wordmark colored"></i>
                                 <i className="devicon-bootstrap-plain-wordmark colored py-1"></i>
+                                <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
+                                <i className="devicon-mongodb-plain-wordmark colored"></i>
                                 {/* <i className="devicon-tailwindcss-plain-wordmark colored text-6xl"></i>     */}
                             </div>
                         </div>
