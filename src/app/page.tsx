@@ -74,7 +74,7 @@ export default function Home() {
             <p className="block pb-16 text-lg text-gray-500 dark:text-gray-400 md:text-xl">Aspiring Full Stack Developer</p>
           </div>
           <div className="px-10 py-5 text-2xl md:text-3xl h-20 w-full flex space-x-16 justify-center items-center">
-            <a href="https://www.linkedin.com/in/kye-lee-low-8a6643159"><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/in/kye-lee-low/"><FaLinkedin /></a>
             <a href="https://github.com/kl810"><FaGithub /></a>
 
             <div className="email-dropdown flex">
