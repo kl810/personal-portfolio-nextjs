@@ -9,8 +9,8 @@ export default function About() {
                 <hr className="h-1 my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             </div>
             <div className="flex justify-center">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 m-10 lg:m-28 max-w-screen-2xl">
-                    <div className="flex justify-center">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 m-10 max-w-screen-2xl"> {/*lg:m-28*/}
+                    <div className="flex justify-center lg:m-16">
                         <Image 
                             src={image}
                             width={350}
@@ -25,18 +25,22 @@ export default function About() {
                                 <p>Hi, I&apos;m Kye-Lee!</p><br/>
 
                                 <p>I&apos;m a <b>teacher</b>, <b>lifelong learner</b>,  
-                                and an <b>aspiring full-stack developer</b>.</p><br/>
+                                and an <b>aspiring full-stack developer</b> on a mission to close the digital divide 
+                                and create opportunities for <b>social mobility</b> through tech.</p><br/>
 
                                 <p>Having spent years in education, I&apos;ve learned how to help people grow, 
                                 foster positive environments and approach problems with a <b>solution-oriented mindset</b>. 
-                                Now, I&apos;m channeling that experience into tech — an industry that excites me with 
-                                its creativity and constant innovation. 
-                                I&apos;m driven to build <b>user-focused tech solutions</b> that matter and to <b>collaborate </b>
-                                with others to build something meaningful on a larger scale.</p><br />
+                                Now, I&apos;m channeling that experience into tech, an industry that excites me with 
+                                its creativity, innovation and power to create change. I believe tech skills should be as fundamental 
+                                as reading, writing and arithmetic — ensuring that everyone, regardless of background, has access to 
+                                opportunities in the increasingly digital world.</p><br/>
+
+                                <p>I&apos;m driven to build <b>user-focused tech solutions</b> that breaks barriers and to <b>collaborate </b>
+                                with others to build something meaningful on a larger scale.
                                 
-                                <p>With a passion for creativity, adaptability and making things work, 
+                                With a passion for creativity, adaptability and making things work, 
                                 I am here to offer fresh ideas and a unique perspective to the 
-                                tech world. </p><br />
+                                tech world.</p><br />
                                 
                                 <p>Explore my projects to see what I have been building!</p><br/>
                                 <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/BOupz2UbespD6bNBI-cMK4s6-R5DI6iq83lFBw8Eq5o.pdf" 
