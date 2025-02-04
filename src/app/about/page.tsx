@@ -1,4 +1,5 @@
 import Image from "next/image";
+import image from './KL-Linkedin-photo.jpeg'
 
 export default function About() {
     return (
@@ -11,7 +12,7 @@ export default function About() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 m-10 lg:m-28 max-w-screen-2xl">
                     <div className="flex justify-center">
                         <Image 
-                            src="/KL-Linkedin-photo.jpeg"
+                            src={image}
                             width={350}
                             height={350}
                             alt="Profile Photo of Kye-Lee"
