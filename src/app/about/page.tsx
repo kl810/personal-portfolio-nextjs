@@ -25,15 +25,15 @@ export default function About() {
                                 <p>Hi, I&apos;m Kye-Lee!</p><br/>
 
                                 <p>I&apos;m a <b>teacher</b>, <b>lifelong learner</b>,  
-                                and an <b>aspiring full-stack developer</b> on a mission to close the digital divide 
+                                and an <b>aspiring full-stack developer</b> on a mission to close the digital skills gap 
                                 and create opportunities for <b>social mobility</b> through tech.</p><br/>
 
                                 <p>Having spent years in education, I&apos;ve learned how to help people grow, 
                                 foster positive environments and approach problems with a <b>solution-oriented mindset</b>. 
                                 Now, I&apos;m channeling that experience into tech, an industry that excites me with 
-                                its creativity, innovation and power to create change. I believe tech skills should be as fundamental 
+                                its creativity, innovation and power to create change. I believe learning to code should be as fundamental 
                                 as reading, writing and arithmetic — ensuring that everyone, regardless of background, has access to 
-                                opportunities in the increasingly digital world.</p><br/>
+                                digital skills and opportunities in the increasingly digital world.</p><br/>
 
                                 <p>I&apos;m driven to build <b>user-focused tech solutions</b> that breaks barriers and to <b>collaborate </b>
                                 with others to build something meaningful on a larger scale.
@@ -43,7 +43,7 @@ export default function About() {
                                 tech world.</p><br />
                                 
                                 <p>Explore my projects to see what I have been building!</p><br/>
-                                <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/G5Zgczz4CjDD21lFhOVky5azGKFhg0zHPkWQocgnC-s.pdf" 
+                                <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/XS60xVxTyIocikVcLTGacvMjV94qC0YBu3gxwF911wU.pdf" 
                                     target="_blank" 
                                     className="focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
                                     View my CV
