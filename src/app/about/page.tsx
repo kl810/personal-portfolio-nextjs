@@ -43,11 +43,11 @@ export default function About() {
                                 tech world.</p><br />
                                 
                                 <p>Explore my projects to see what I have been building!</p><br/>
-                                <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/XS60xVxTyIocikVcLTGacvMjV94qC0YBu3gxwF911wU.pdf" 
+                                {/* <a href="https://storage.googleapis.com/otta-uploads/candidate-cv/XS60xVxTyIocikVcLTGacvMjV94qC0YBu3gxwF911wU.pdf" 
                                     target="_blank" 
                                     className="focus:outline-none text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">
                                     View my CV
-                                </a>
+                                </a> */}
                             </div>
                             <div className="py-12 text-xl md:text-3xl lg:text-4xl flex space-x-10 justify-center">
                                 <i className="devicon-react-original-wordmark colored"></i>
